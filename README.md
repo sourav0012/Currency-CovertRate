@@ -1,18 +1,49 @@
-# Currency-CovertRate
+# 💱 Currency-CovertRate
 
-💱 Currency Converter Web App
-- Convert an amount between multiple currencies.
-- Automatically fetch real-time exchange rates from an external API.
-- View country flags dynamically based on currency selections
-  
-#🚀 Features
-🔄 Real-time currency exchange rates using ExchangeRate API
-🌍 Dynamically updated country flags using FlagsAPI
-🎯 Auto-filled currency dropdowns with popular global currencies
-📱 Responsive and clean user interface
+A sleek and responsive **Currency Converter** web app that allows users to convert between global currencies in real-time, view country flags, and interact with a user-friendly interface.
 
-📂 Project Structure
-├── index.html        # UI layout for the converter
-├── style.css         # Modern styling for desktop & mobile
-├── app.js            # Main JS logic for fetching, converting, and flag updating
-└── country.js        # Currency-to-country code mapping
+---
+
+## 🚀 Features
+
+- 🔄 **Live Currency Exchange Rates**  
+  Get real-time conversion rates using [ExchangeRate.host API](https://exchangerate.host/).
+
+- 🌍 **Dynamic Country Flags**  
+  Flags are fetched automatically based on selected currency via [FlagsAPI](https://flagsapi.com/).
+
+- 🎯 **Auto-Populated Dropdowns**  
+  Popular currencies are preloaded for quick selection.
+
+- 📱 **Responsive UI**  
+  Clean and mobile-friendly interface with minimal and modern styling.
+
+---
+
+## 📂 Project Structure
+
+📦 Currency-CovertRate
+├── index.html # Main HTML layout
+├── style.css # Responsive and modern CSS styles
+├── app.js # Core JS logic: API fetch, flag updates, currency conversion
+└── country.js # Currency-to-country code mapping for flag rendering
+
+
+
+---
+
+## 🔧 Technologies Used
+
+- HTML5
+- CSS3
+- JavaScript (ES6)
+- ExchangeRate.host API
+- FlagsAPI
+
+---
+
+## 💻 How to Run Locally
+
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/your-username/Currency-CovertRate.git
