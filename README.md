@@ -46,4 +46,4 @@ A sleek and responsive **Currency Converter** web app that allows users to conve
 
 1. Clone the repo:
    ```bash
-   git clone https://github.com/your-username/Currency-CovertRate.git
+   git clone https://github.com/sourav0012/Currency-CovertRate.git 
